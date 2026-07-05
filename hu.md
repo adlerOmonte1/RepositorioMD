@@ -8,6 +8,7 @@
 |---|---|---|---|
 
 **Historia de Usuario**
+
 Como participante, quiero inscribir una alfombra indicando título, descripción, lugar, nombre del autor y hasta 3 fotografías, para que sea evaluada dentro del concurso de la edición activa.
 
 **Campos del formulario de inscripción**
@@ -36,6 +37,7 @@ Como participante, quiero inscribir una alfombra indicando título, descripción
 |---|---|---|---|
 
 **Historia de Usuario**
+
 Como sistema, debo mantener cada alfombra inscrita en estado "pendiente" y oculta del público hasta que un administrador la apruebe, para garantizar que solo contenido revisado se publique.
 
 **Comportamiento y estados**
@@ -49,6 +51,7 @@ Como sistema, debo mantener cada alfombra inscrita en estado "pendiente" y ocult
 
 **Requerimientos Funcionales:**
 > RF03. El sistema debe registrar cada alfombra en estado "pendiente" hasta que un administrador la apruebe.
+> 
 > RF04. El sistema debe impedir que una alfombra no aprobada se muestre en la galería pública.
 ---
 
@@ -57,8 +60,8 @@ Como sistema, debo mantener cada alfombra inscrita en estado "pendiente" y ocult
 | Identificador de la historia | ALF-03 | Nombre de la historia | Aprobación o rechazo de una alfombra |
 |---|---|---|---|
 
-
 **Historia de Usuario**
+
 Como administrador, quiero aprobar o rechazar cada alfombra inscrita, para controlar qué contenido se publica dentro del concurso.
 
 **Acciones disponibles para el administrador**
@@ -83,6 +86,7 @@ Como administrador, quiero aprobar o rechazar cada alfombra inscrita, para contr
 
 
 **Historia de Usuario**
+
 Como visitante, quiero ver en una galería pública todas las alfombras aprobadas junto con sus fotografías, para conocer a las participantes del concurso.
 
 **Campos visibles en la galería pública**
@@ -103,6 +107,7 @@ Como visitante, quiero ver en una galería pública todas las alfombras aprobada
 |---|---|---|---|
 
 **Historia de Usuario**
+
 Como usuario, quiero calificar y dar "me gusta" a las alfombras publicadas, para expresar mi opinión sobre cuáles son mis favoritas.
 
 **Campos y acciones de calificación**
@@ -117,6 +122,7 @@ Como usuario, quiero calificar y dar "me gusta" a las alfombras publicadas, para
 
 **Requerimientos Funcionales:**
 > RF07. El sistema debe permitir a los usuarios calificar y dar "me gusta" a las alfombras publicadas.
+> 
 > RF08. El sistema debe impedir que un mismo usuario califique más de una vez la misma alfombra.
 
 ---
@@ -128,6 +134,7 @@ Como usuario, quiero calificar y dar "me gusta" a las alfombras publicadas, para
 
 
 **Historia de Usuario**
+
 Como visitante, quiero ver un ranking de alfombras basado en las calificaciones y "me gusta" recibidos, para saber cuáles son las mejores de la edición.
 
 **Campos visibles en el ranking**
@@ -150,6 +157,7 @@ Como visitante, quiero ver un ranking de alfombras basado en las calificaciones 
 
 
 **Historia de Usuario**
+
 Como usuario, quiero subir fotografías a una galería general, con autor y descripción, para compartir imágenes de la fiesta sin necesidad de inscribir una alfombra en el concurso.
 
 **Campos del formulario de publicación**
@@ -165,6 +173,7 @@ Como usuario, quiero subir fotografías a una galería general, con autor y desc
 
 **Requerimientos Funcionales:**
 > RF10. El sistema debe permitir a los usuarios subir fotografías a una galería general, independiente de las alfombras inscritas en el concurso.
+> 
 > RF11. El sistema debe permitir asociar autor y descripción a cada fotografía de la galería general.
 ---
 
@@ -175,6 +184,7 @@ Como usuario, quiero subir fotografías a una galería general, con autor y desc
 
 
 **Historia de Usuario**
+
 Como administrador, quiero publicar un anuncio con título, contenido y fecha, para informar a los usuarios sobre novedades relacionadas con la fiesta.
 
 **Campos del formulario de publicación**
@@ -200,6 +210,7 @@ Como administrador, quiero publicar un anuncio con título, contenido y fecha, p
 
 
 **Historia de Usuario**
+
 Como visitante, quiero ver los anuncios publicados por el administrador en el frontend, para estar informado de las novedades de la fiesta.
 
 **Campos visibles del anuncio**
@@ -221,6 +232,7 @@ Como visitante, quiero ver los anuncios publicados por el administrador en el fr
 
 
 **Historia de Usuario**
+
 Como administrador, quiero editar o eliminar un anuncio ya publicado, para corregir información desactualizada o retirar contenido que ya no aplica.
 
 **Acciones disponibles para el administrador**
