@@ -1,6 +1,4 @@
-# Historias de Usuario Detalladas — Alfombras, Galería y Anuncios
-
-Formato de ficha por historia: identificador, RF relacionado (tal cual fue redactado), historia de usuario, campos/acciones involucradas, y criterios de aceptación enfocados en comportamiento funcional (no en diseño visual).
+# Historias de Usuario — Senior Burgos
 
 ---
 
@@ -8,10 +6,6 @@ Formato de ficha por historia: identificador, RF relacionado (tal cual fue redac
 
 | Identificador de la historia | ALF-01 | Nombre de la historia | Inscripción de una alfombra al concurso |
 |---|---|---|---|
-
-**RF relacionado (tal cual):**
-> RF01. El sistema debe permitir a un usuario inscribir una alfombra indicando título, descripción, lugar y nombre del autor, el cual puede ser distinto del usuario que realiza la publicación.
-> RF02. El sistema debe permitir adjuntar múltiples fotografías a cada alfombra inscrita pero máximo 3 imágenes.
 
 **Historia**
 Como participante, quiero inscribir una alfombra indicando título, descripción, lugar, nombre del autor y hasta 3 fotografías, para que sea evaluada dentro del concurso de la edición activa.
@@ -29,17 +23,17 @@ Como participante, quiero inscribir una alfombra indicando título, descripción
 - Si el campo "nombre del autor" queda vacío, el sistema debe asumir como autor al usuario que realiza la inscripción.
 - La alfombra debe quedar asociada automáticamente a la edición que esté activa en el momento de la inscripción.
 - Si no existe ninguna edición activa, el sistema debe impedir la inscripción y mostrar "No hay una edición abierta actualmente".
-
+  
+**Requerimiento Funcional:**
+> RF01. El sistema debe permitir a un usuario inscribir una alfombra indicando título, descripción, lugar y nombre del autor, el cual puede ser distinto del usuario que realiza la publicación.
+> 
+> RF02. El sistema debe permitir adjuntar múltiples fotografías a cada alfombra inscrita pero máximo 3 imágenes.
 ---
 
 ## ALF-02 — Registro de alfombra en estado pendiente
 
 | Identificador de la historia | ALF-02 | Nombre de la historia | Registro de alfombra en estado pendiente |
 |---|---|---|---|
-
-**RF relacionado (tal cual):**
-> RF03. El sistema debe registrar cada alfombra en estado "pendiente" hasta que un administrador la apruebe.
-> RF04. El sistema debe impedir que una alfombra no aprobada se muestre en la galería pública.
 
 **Historia**
 Como sistema, debo mantener cada alfombra inscrita en estado "pendiente" y oculta del público hasta que un administrador la apruebe, para garantizar que solo contenido revisado se publique.
@@ -53,6 +47,9 @@ Como sistema, debo mantener cada alfombra inscrita en estado "pendiente" y ocult
 - Si un usuario intenta acceder directamente al detalle de una alfombra que no está aprobada y no le pertenece, el sistema debe responder "Alfombra no disponible" en lugar de mostrar su contenido.
 - El usuario que inscribió la alfombra sí debe poder consultar su propio estado (pendiente/aprobada/rechazada) desde su historial personal, aunque aún no esté aprobada.
 
+**RF relacionado:**
+> RF03. El sistema debe registrar cada alfombra en estado "pendiente" hasta que un administrador la apruebe.
+> RF04. El sistema debe impedir que una alfombra no aprobada se muestre en la galería pública.
 ---
 
 ## ALF-03 — Aprobación o rechazo de una alfombra
