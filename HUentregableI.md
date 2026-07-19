@@ -1,4 +1,5 @@
 # EDI-01 — Organización y segmentación de información por edición anual
+
 | Campo | Descripción |
 |--------|-------------|
 | **Identificador** | EDI-01 |
